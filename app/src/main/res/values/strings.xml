@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Đồng hồ</string>
+    <string name="internatinal_time">Giờ Quốc tế</string>
+    <string name="alarm">Báo thức</string>
+    <string name="stop_watch">Bấm giờ</string>
+    <string name="timer">Hẹn giờ</string>
+
+    <string name="minute">phút</string>
+    <string name="second">giây</string>
+    <string name="start">Bắt đầu</string>
+    <string name="resume">Tiếp tục</string>
+    <string name="stop">Dừng</string>
+    <string name="destroy">Hủy</string>
+
+
+    <string name="set_time">Hẹn giờ</string>
+</resources>

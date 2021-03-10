@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/it_international_time"
+        android:title="@string/internatinal_time"
+        android:icon="@drawable/ic_international_time"/>
+
+    <item
+        android:id="@+id/it_alarm"
+        android:title="@string/alarm"
+        android:icon="@drawable/ic_alarm"/>
+
+    <item
+        android:id="@+id/it_stop_watch"
+        android:title="@string/stop_watch"
+        android:icon="@drawable/ic_stopwatch"/>
+
+    <item
+        android:id="@+id/it_timer"
+        android:title="@string/timer"
+        android:icon="@drawable/ic_timer"/>
+</menu>

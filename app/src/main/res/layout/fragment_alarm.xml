@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorGrayLight"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TimePicker
+        android:id="@+id/tp_picker"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_set_time"
+        android:text="@string/set_time"
+        android:layout_margin="8dp"
+        android:background="@drawable/green_corners"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@id/tp_picker"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_stop"
+        android:text="@string/stop"
+        android:layout_below="@id/tp_picker"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/red_corners"
+        android:layout_alignParentRight="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_set_time"
+        android:text="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_below="@id/btn_set_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/img_bell"
+        android:src="@drawable/ic_notifications_24"
+        android:layout_toLeftOf="@id/tv_set_time"
+        android:layout_below="@id/btn_set_time"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
